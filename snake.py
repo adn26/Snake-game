@@ -1,15 +1,6 @@
 from tkinter import *
 import random
-import os 
-
-def image_upload(file):
-    if os.path.exists(file):
-        return PhotoImage(file="C:\\Users\\WIN-11\\Desktop\\Adnan's Programs\\Snake game\\snake.png")
-    else:
-        print(f"Warning {file} not found")
-        return None
-
-
+ 
 GAME_WIDTH = 800
 GAME_HEIGHT = 600
 SPEED = 70
